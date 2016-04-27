@@ -8,9 +8,11 @@
 
 ## 使用方法
 ```
-1）配置文件
+1）全局配置文件
+etc/config.ini，配置监控用邮件服务器信息，以及发告警的用户
+2）监控配置文件
 etc/sam.conf，每个配置项参考配置文件的说明
-2）启动、停止、重启
+3）启动、停止、重启
 python sam.py -a start
 python sam.py -a stop
 python sam.py -a restart
